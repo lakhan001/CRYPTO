@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
+
+.login-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+</style>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <form action="#">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
